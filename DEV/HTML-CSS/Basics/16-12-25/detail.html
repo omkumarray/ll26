@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Pictures</title>
+</head>
+<body>
+
+<h2>Car Pictures</h2>
+
+<a href="#" onclick="document.getElementById('om').style.display='block'; document.getElementById('vivek').style.display='none'; return false;">
+    <img src="om.jpg" height="100" width="130" alt="Om Car">
+</a>
+
+<br><br>
+
+<a href="#" onclick="document.getElementById('vivek').style.display='block'; document.getElementById('om').style.display='none'; return false;">
+    <img src="vivek.jpg" height="100" width="130" alt="Vivek Car">
+</a>
+
+<br><br>
+
+<div id="om" style="display:none;">
+    <h3>Om Car Details</h3>
+    <img src="om.jpg" height="200" width="260">
+    <p>
+        Owner: Om <br>
+        Car Model: Dodge Challenger <br>
+        Color: Tangerine <br>
+        Year: 2023
+    </p>
+</div>
+
+<div id="vivek" style="display:none;">
+    <h3>Vivek Car Details</h3>
+    <img src="vivek.jpg" height="200" width="260">
+    <p>
+        Owner: Vivek <br>
+        Car Model: Chevy Camaro <br>
+        Color: Pearl White <br>
+        Year: 2022
+    </p>
+</div>
+
+</body>
+</html>
