@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- BASIC META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO META -->
+    <meta name="description" content="Complete HTML Basic to Advanced Concepts">
+    <meta name="keywords" content="HTML, tags, forms, tables, semantic, advanced">
+    <meta name="author" content="Student">
+
+    <title>HTML All In One</title>
+
+    <!-- BASE TAG -->
+    <base target="_blank">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="https://via.placeholder.com/16">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <h1>HTML – Basic to Advanced (ALL IN ONE)</h1>
+    <nav>
+        <a href="#text">Text</a> |
+        <a href="#lists">Lists</a> |
+        <a href="#links">Links</a> |
+        <a href="#media">Media</a> |
+        <a href="#tables">Tables</a> |
+        <a href="#forms">Forms</a> |
+        <a href="#semantic">Semantic</a> |
+        <a href="#advanced">Advanced</a>
+    </nav>
+    <hr>
+</header>
+
+<main>
+
+<!-- ================= TEXT ================= -->
+<section id="text">
+    <h2>1. Text & Formatting</h2>
+
+    <h1>H1</h1><h2>H2</h2><h3>H3</h3><h4>H4</h4><h5>H5</h5><h6>H6</h6>
+
+    <p>This is a paragraph.</p>
+
+    <b>Bold</b> |
+    <strong>Strong</strong> |
+    <i>Italic</i> |
+    <em>Emphasis</em> |
+    <u>Underline</u> |
+    <mark>Highlight</mark> |
+    <small>Small</small><br>
+
+    X<sub>2</sub> + Y<sup>2</sup><br>
+
+    <abbr title="HyperText Markup Language">HTML</abbr><br>
+
+    <blockquote>This is a blockquote.</blockquote>
+
+    <pre>
+Preserves
+    spaces
+        and lines
+    </pre>
+
+    <code>printf("Hello HTML");</code><br>
+
+    Entities: &copy; &reg; &trade; &nbsp; &hearts; &infin;
+</section>
+
+<hr>
+
+<!-- ================= LISTS ================= -->
+<section id="lists">
+    <h2>2. Lists</h2>
+
+    <ul>
+        <li>Unordered</li>
+        <li>List</li>
+    </ul>
+
+    <ol>
+        <li>Ordered</li>
+        <li>List</li>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Markup Language</dd>
+    </dl>
+</section>
+
+<hr>
+
+<!-- ================= LINKS ================= -->
+<section id="links">
+    <h2>3. Links</h2>
+
+    <a href="https://google.com">Normal Link</a><br>
+    <a href="mailto:test@gmail.com">Email</a><br>
+    <a href="tel:+911234567890">Phone</a><br>
+    <a href="#text">Internal Link</a><br>
+    <a href="file.pdf" download>Download</a>
+</section>
+
+<hr>
+
+<!-- ================= MEDIA ================= -->
+<section id="media">
+    <h2>4. Media</h2>
+
+    <img src="https://via.placeholder.com/200" alt="Image"><br><br>
+
+    <audio controls>
+        <source src="sample.mp3">
+    </audio><br><br>
+
+    <video width="300" controls>
+        <source src="sample.mp4">
+    </video>
+
+    <h3>Picture Tag</h3>
+    <picture>
+        <source media="(min-width:600px)" srcset="large.jpg">
+        <img src="small.jpg" alt="Picture">
+    </picture>
+</section>
+
+<hr>
+
+<!-- ================= TABLE ================= -->
+<section id="tables">
+    <h2>5. Tables</h2>
+
+    <table border="1">
+        <caption>Student Data</caption>
+        <thead>
+            <tr><th>Name</th><th>Marks</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>A</td><td>90</td></tr>
+            <tr><td>B</td><td>85</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td>Total</td><td>175</td></tr>
+        </tfoot>
+    </table>
+</section>
+
+<hr>
+
+<!-- ================= FORMS ================= -->
+<section id="forms">
+    <h2>6. Forms</h2>
+
+    <form>
+        <fieldset>
+            <legend>User Info</legend>
+
+            Text: <input type="text" required><br><br>
+            Email: <input type="email"><br><br>
+            Password: <input type="password"><br><br>
+            Number: <input type="number"><br><br>
+            Date: <input type="date"><br><br>
+            Time: <input type="time"><br><br>
+            Color: <input type="color"><br><br>
+            Range: <input type="range"><br><br>
+            File: <input type="file"><br><br>
+
+            Gender:
+            <input type="radio" name="g">Male
+            <input type="radio" name="g">Female<br><br>
+
+            Skills:
+            <input type="checkbox">HTML
+            <input type="checkbox">CSS
+            <input type="checkbox">JS<br><br>
+
+            Country:
+            <select>
+                <option>India</option>
+                <option>USA</option>
+            </select><br><br>
+
+            Datalist:
+            <input list="langs">
+            <datalist id="langs">
+                <option value="C">
+                <option value="C++">
+                <option value="Java">
+            </datalist><br><br>
+
+            <textarea rows="3" cols="30"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</section>
+
+<hr>
+
+<!-- ================= SEMANTIC ================= -->
+<section id="semantic">
+    <h2>7. Semantic Elements</h2>
+
+    <article>
+        <h3>Article</h3>
+        <p>Independent content</p>
+    </article>
+
+    <section>Section</section>
+    <aside>Aside content</aside>
+</section>
+
+<hr>
+
+<!-- ================= ADVANCED ================= -->
+<section id="advanced">
+    <h2>8. Advanced HTML</h2>
+
+    <details>
+        <summary>Details & Summary</summary>
+        Hidden content
+    </details>
+
+    <progress value="70" max="100"></progress><br>
+    <meter value="0.8">80%</meter><br><br>
+
+    <dialog open>Dialog Box</dialog><br><br>
+
+    <template>
+        <p>This is template content</p>
+    </template>
+
+    <p data-id="101">Data Attribute Example</p>
+
+    <button aria-label="Close">X</button>
+
+    <h3>Iframe</h3>
+    <iframe src="https://example.com" width="300" height="200"></iframe>
+
+    <h3>Image Map</h3>
+    <img src="https://via.placeholder.com/300" usemap="#map">
+    <map name="map">
+        <area shape="rect" coords="0,0,100,100" href="https://google.com">
+    </map>
+</section>
+
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; HTML Complete Practice File</p>
+</footer>
+
+</body>
+</html>
