@@ -18,17 +18,17 @@ int main() {
         cout << arr[i];
     }
 
+    
+    // // with diffrent loop.
 
-    // with diffrent loop.
+    // int arr[5];
 
-    int arr[5];
+    // for (int i = 0; i < 5; i++) {
+    //     cin >> arr[i];
+    // }
 
-    for (int i = 0; i < 5; i++) {
-        cin >> arr[i];
-    }
-
-    for (int i = 0; i < 5; i++) {
-        cout << arr[i] << " ";
-    }
+    // for (int i = 0; i < 5; i++) {
+    //     cout << arr[i] << " ";
+    // }
 
 }
