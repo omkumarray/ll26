@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 11 - Iframes</title>
+</head>
+<body>
+
+    <h1>🌍 HTML Iframes</h1>
+
+    <hr>
+
+    <!-- Simple Website -->
+    <h2>Embed a Website</h2>
+
+    <iframe
+        src="https://example.com"
+        width="800"
+        height="300"
+        title="Example Website">
+    </iframe>
+
+    <hr>
+
+    <!-- YouTube -->
+    <h2>Embedded YouTube Video</h2>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/aqz-KE-bpKQ"
+        title="YouTube Video"
+        allowfullscreen>
+    </iframe>
+
+    <hr>
+
+    <!-- Google Maps -->
+    <h2>Google Maps</h2>
+
+    <iframe
+        src="https://www.google.com/maps?q=Hyderabad&output=embed"
+        width="600"
+        height="450"
+        style="border:0;"
+        loading="lazy"
+        title="Google Maps">
+    </iframe>
+
+    <hr>
+
+    <!-- Loading Lazy Example -->
+    <h2>Lazy Loading Iframe</h2>
+
+    <iframe
+        src="https://example.com"
+        width="800"
+        height="300"
+        loading="lazy"
+        title="Lazy Loaded Website">
+    </iframe>
+
+    <hr>
+
+    <h2>Security Notes</h2>
+
+    <ul>
+        <li>Not every website allows embedding inside an iframe.</li>
+        <li>Some websites block iframes for security reasons.</li>
+        <li>Always use the <strong>title</strong> attribute for accessibility.</li>
+        <li>Use <strong>loading="lazy"</strong> to improve performance.</li>
+    </ul>
+
+</body>
+</html>
