@@ -44,9 +44,4 @@ Advanced C++
     ├── Memory Management
     ├── Debugging
     └── Best Practices
-```
 
----
-**Advanced:** `0/21`
-
-> ⭐ Star this repository if you find it useful, and keep checking off topics as you learn!
