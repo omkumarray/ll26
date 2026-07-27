@@ -12,4 +12,12 @@ int main() {
     cout << "The average is: " << average << endl;
     return 0;
 
+
+//! Important
+//? Question
+// TODO: Complete this function
+//* Highlight
+// NOTE: Read this
+
+
 }
